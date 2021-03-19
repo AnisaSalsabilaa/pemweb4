@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	$(".sembunyi").click(function() {$("#foto").hide("slow")});
+	$(".tampil").click(function() {$("#foto").show("slow")});
+	});
+</script>
+</head>
+<body>
+	<button class="sembunyi"> Sembunyikan </button>
+	<button class="tampil"> Tampilkan </button>
+	<p><img id="foto" src="logoUPN.png"></p>
+</body>
+</html>
